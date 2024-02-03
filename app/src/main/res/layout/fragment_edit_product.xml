@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MenuFragments.Edit_productFragment"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="@color/lavender"
+        android:clickable="true"
+
+        />
+    <Spinner
+        android:id="@+id/productOption"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="48dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="@color/lavender"
+        android:clickable="true"
+
+        />
+    <Spinner
+        android:id="@+id/locationOption"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="48dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="@color/lavender"
+        android:clickable="true"
+
+        />
+    <EditText
+        android:id="@+id/ID"
+        android:textSize="15dp"
+        android:hint="Enter Id "
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Name"
+        android:textSize="15dp"
+        android:hint="Enter name"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/locationID"
+        android:textSize="15dp"
+        android:hint="Enter location"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/unit"
+        android:textSize="15dp"
+        android:hint="Enter unit"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/type"
+        android:textSize="15dp"
+        android:hint="Enter type"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/company"
+        android:textSize="15dp"
+        android:hint="Enter company"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/quantity"
+        android:textSize="15dp"
+        android:hint="Enter quantity"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/laneORshelf"
+        android:textSize="15dp"
+        android:hint="Enter lane or shelf"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/done"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="show"
+        />
+
+</LinearLayout>
+</ScrollView>

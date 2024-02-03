@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <item
+        android:title="Inventory">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/home_svgrepo_com"
+                android:title="Home"/>
+        </menu>
+    </item>
+    <group
+        android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_addproduct"
+            android:icon="@drawable/baseline_add_card_24"
+            android:title="Add Product"/>
+        <item
+            android:id="@+id/nav_removeproduct"
+            android:icon="@drawable/remove_payment_card_svgrepo_com"
+            android:title="Remove Product"/>
+        <item
+            android:id="@+id/nav_showproduct"
+            android:icon="@drawable/show_svgrepo_com"
+            android:title="Show Products"/>
+        <item
+            android:id="@+id/nav_units"
+            android:icon="@drawable/item_storage_search_svgrepo_com"
+            android:title="Units"/>
+
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_searchproduct"-->
+<!--            android:icon="@drawable/search_alt_2_svgrepo_com"-->
+<!--            android:title="Search"/>-->
+        <item
+            android:id="@+id/nav_editproduct"
+            android:icon="@drawable/edit_3_svgrepo_com"
+            android:title="Edit"/>
+    </group>
+    <item android:title="Sheets">
+        <menu>
+            <item
+                android:id="@+id/excel_import"
+                android:icon="@drawable/import_2_svgrepo_com"
+                android:title="Excel Import"/>
+            <item
+                android:id="@+id/excel_export"
+                android:icon="@drawable/export_left_2_svgrepo_com"
+                android:title="Excel Export"/>
+        </menu>
+    </item>
+    <item
+        android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_2_svgrepo_com"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
